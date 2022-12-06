@@ -35,7 +35,7 @@
 
     <body>
     
-
+        
         <?php echo $this->element('andiaNavbar'); ?>
 
         
@@ -43,7 +43,8 @@
 
         <!-- Site Description -->
         
-
+        <?php echo "ONE Simple title just to test Git commit"; ?>
+        
         <!-- Services -->
         <?php echo $this->fetch('content'); ?>
         
